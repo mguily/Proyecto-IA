@@ -1,4 +1,5 @@
-Descripción del proyecto
+Descripción del proyecto:
+
 Este proyecto se realizó en segundo de carrera de la asignatura de Inteligencia Artificial (IA) en la Universidad Politécnica de Madrid (UPM). El objetivo principal fue implementar y comparar distintos algoritmos de búsqueda y optimización.
 
 Algoritmos implementados

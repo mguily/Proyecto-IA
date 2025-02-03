@@ -16,4 +16,20 @@ El objetivo principal de este proyecto ha sido implementar y comparar distintos 
 **Aplicación:** Implementado para encontrar rutas óptimas en mapas o problemas de búsqueda de caminos en un entorno con obstáculos.
 
 ### 3. Algoritmo Genético Básico 🧬
-**Descripción:** Algoritmo de optimización inspirado en la evolución natural. Utiliza operadores de selección, cruce y mutación para generar nuevas soluciones de una población y mejorar la calidad de las soluciones en gene
+**Descripción:** Algoritmo de optimización inspirado en la evolución natural. Utiliza operadores de selección, cruce y mutación para generar nuevas soluciones de una población y mejorar la calidad de las soluciones en generaciones sucesivas.
+
+**Aplicación:** Implementado para resolver problemas de optimización donde la búsqueda de soluciones mediante métodos tradicionales es ineficiente.
+
+### 4. Algoritmo Genético Avanzado 🚀
+**Descripción:** Extensión del algoritmo genético básico con mejoras como la adaptación de tasas de mutación, cruce más complejo (e.g., cruce de un punto, cruce de dos puntos) y estrategias de elitismo para mantener las mejores soluciones.
+
+**Aplicación:** Utilizado para optimizar problemas de mayor complejidad y comparar la mejora en la calidad de las soluciones con el algoritmo genético básico.
+
+## Resultados y Comparación 📊
+- **B&B:** Proporcionó soluciones óptimas en un tiempo razonable para problemas pequeños, pero presentó dificultades de escalabilidad para problemas más complejos.
+- **A*:** Fue efectivo en la búsqueda de rutas óptimas, especialmente en entornos donde la heurística h(n) podía estimar de forma precisa el costo restante.
+- **Algoritmo Genético Básico:** Mostró capacidad de encontrar soluciones buenas en problemas de optimización complejos, pero a veces se quedó estancado en óptimos locales.
+- **Algoritmo Genético Avanzado:** Superó al genético básico en términos de calidad de soluciones y velocidad de convergencia gracias a las mejoras implementadas.
+
+## Tecnologías Utilizadas 💻
+- **Lenguaje de programación:** Python

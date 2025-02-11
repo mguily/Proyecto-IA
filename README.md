@@ -27,7 +27,7 @@ El objetivo principal de este proyecto ha sido implementar y comparar distintos 
 
 ## Resultados y Comparación 📊
 - **B&B**: Proporcionó soluciones óptimas en un tiempo razonable para problemas pequeños, pero presentó dificultades de escalabilidad para problemas más complejos.
-- **A****: Fue efectivo en la búsqueda de rutas óptimas, especialmente en entornos donde la heurística h(n) podía estimar de forma precisa el costo restante.
+- **A***: Fue efectivo en la búsqueda de rutas óptimas, especialmente en entornos donde la heurística h(n) podía estimar de forma precisa el costo restante.
 - **Algoritmo Genético Básico**: Mostró capacidad de encontrar soluciones buenas en problemas de optimización complejos, pero a veces se quedó estancado en óptimos locales.
 - **Algoritmo Genético Avanzado**: Superó al genético básico en términos de calidad de soluciones y velocidad de convergencia gracias a las mejoras implementadas.
 
